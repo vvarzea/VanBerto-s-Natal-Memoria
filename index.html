@@ -1114,11 +1114,11 @@
       ctx.fillStyle="#ff7a7a";
       ctx.beginPath(); ctx.ellipse(48,37.4,2.4,1.5,0,0,Math.PI); ctx.fill();
     }
-    /* 🎅 gorro de Pai Natal */
-    ctx.fillStyle="#d42426"; ctx.beginPath(); ctx.moveTo(27,16); ctx.bezierCurveTo(29,1,46,-4,62,7); ctx.lineTo(69,16); ctx.closePath(); ctx.fill();
+    /* 🎅 gorro de Pai Natal (maior, tapa a antena) */
+    ctx.fillStyle="#d42426"; ctx.beginPath(); ctx.moveTo(24,22); ctx.quadraticCurveTo(26,-6,56,-6); ctx.quadraticCurveTo(70,8,72,22); ctx.closePath(); ctx.fill();
     ctx.lineWidth=2.4; ctx.strokeStyle="#7a1012"; ctx.stroke();
-    ctx.fillStyle="#fff"; rrVan(ctx,24,13,48,8,4); ctx.fill(); ctx.lineWidth=2; ctx.strokeStyle="#c9d3e3"; ctx.stroke();
-    cfVan(ctx,63,8,5.2,"#fff"); ctx.lineWidth=1.8; ctx.strokeStyle="#c9d3e3"; ctx.beginPath(); ctx.arc(63,8,5.2,0,Math.PI*2); ctx.stroke();
+    ctx.fillStyle="#fff"; rrVan(ctx,21,15,54,10,5); ctx.fill(); ctx.lineWidth=2; ctx.strokeStyle="#c9d3e3"; ctx.stroke();
+    cfVan(ctx,58,-1,5,"#fff"); ctx.lineWidth=1.8; ctx.strokeStyle="#c9d3e3"; ctx.beginPath(); ctx.arc(58,-1,5,0,Math.PI*2); ctx.stroke();
     ctx.restore();
   }
 
